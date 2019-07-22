@@ -8,9 +8,7 @@
 
 <h1>Pet Form</h1>
 <form action="#"
-      th:action="@{/processpet}"
-      th:object="${pet}"
-      method="post">
+      th:action="@{/processpet}" th:object="${pet}" method="post">
 
     <div class="container">
         <input type="hidden" th:field="*{id}">

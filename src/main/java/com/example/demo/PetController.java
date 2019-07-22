@@ -79,5 +79,9 @@ public class PetController {
         person= new Person();
         person.setPersonName("Gary Barlow");
         personRepository.save(person);
+        //
+        person=new Person();
+        person.setPersonName("Hirpha");
+        personRepository.save(person);
     }
 }

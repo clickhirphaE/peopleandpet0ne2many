@@ -1,7 +1,7 @@
 package com.example.demo;
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
-import java.util.Set;
+//import javax.validation.constraints.NotNull;
+//import java.util.Set;
 
 @Entity
 public class PeoplePets {
